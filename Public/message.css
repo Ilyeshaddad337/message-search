@@ -148,7 +148,7 @@ ul {
 }
 
 .left::before {
-   background-image:url(/images/ikh.jpg);
+   background-image:url(./images/ikh.jpg);
    position: absolute;     
    left: 0.5%;
    bottom: 58%;
@@ -162,7 +162,7 @@ ul {
 }
 
 .right::after {
-   background-image:url(/images/Screenshot\ 2021-10-01\ at\ 12-13-28\ Message\ search.png);
+   background-image:url(./images/Screenshot\ 2021-10-01\ at\ 12-13-28\ Message\ search.png);
    position: absolute;     
    right: 0.5%;
    bottom: 0;
