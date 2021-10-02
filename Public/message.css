@@ -1,0 +1,235 @@
+.hidden {
+   display: none;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #343434;
+   color: #fff;
+   text-align: center;
+   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+   margin: 1.2em;
+   margin-bottom: 0;
+}
+.search {
+   width: 100%;
+   margin: 0;
+   font-weight: 500;
+}
+
+.words , .dates {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+  
+}
+
+.input0 {
+   width: 45%;
+   height: 1.5rem;
+}
+
+.date {
+   margin: 1.2em;
+   width: 100%;
+}
+
+#input1 , #input2 {
+   margin: 1.1em;
+   height: 1.5rem;
+}
+
+label {
+   margin: 0.8em;
+}
+
+input {
+   border-radius: 2em;
+   border: 0;
+   margin: 1.2em;
+   font-weight: 300;
+
+}
+
+button {
+   border-radius: 1.9em;
+   padding: 0.5em;
+   border: 0;
+   background-color: #1A8;
+   color: #fff;
+   margin: 0 0.6em;
+   width: 10%;
+   font-weight: 300;
+
+}
+
+.date-search {
+   width: 100%;
+}
+
+#btn2 {
+   width: 20%;
+}
+
+.txt {
+   color: #1A8;
+   font-weight: 300;
+   font-size: 1.2rem;
+   letter-spacing: 1.4px;
+}
+.results-words {
+   word-wrap: 100%;
+}
+.li1 {
+   color: #FFC482;
+   font-size: 0.6REM;
+   margin: 0;
+   opacity: 0.4;
+}
+
+.dat {
+   color: #0ce2d7;
+   font-size: 1.2em;
+}
+.name {
+   color: #1AFFD5;
+   font-size: 1.25rem;
+   font-weight: 500;
+}
+
+li {
+   margin: 0;
+   word-wrap: normal;
+   
+
+}
+ul {
+   display: flex;
+   flex-direction: column;
+   background-color: #343434;
+   border-radius: 2em;
+   color: #fff;
+   text-align: left;
+   list-style-type: none;
+   margin-left: 0;
+   font-size: 1.3rem;
+   font-weight: 300;
+   letter-spacing: 0.4px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+   ul {
+      display: flex;
+      flex-direction: column;
+   }
+   
+}
+
+@media screen and (max-width: 700px) {
+   button {
+      width: auto;
+   }
+   
+}
+
+.conversation {
+   position: relative;
+}
+
+.left::before {
+   background-image:url(/images/ikh.jpg);
+   position: absolute;     
+   left: 0.5%;
+   bottom: 58%;
+   background-size:  25px 25px;
+   background-position: center; 
+   display: inline-block;
+   width: 25px; 
+   height: 25px;
+   border-radius: 2rem;
+   content:"";
+}
+
+.right::after {
+   background-image:url(/images/Screenshot\ 2021-10-01\ at\ 12-13-28\ Message\ search.png);
+   position: absolute;     
+   right: 0.5%;
+   bottom: 0;
+   background-size: 25px 25px;
+   background-position: center; 
+   display: inline-block;
+   width: 25px; 
+   height: 25px;
+   border-radius: 2rem;
+   content:"";
+}
+
+p {
+   background-color:#10238f;
+   color: #FAF3DD;
+   border-radius: 2rem;
+   padding: 0.7em;
+   width: max-content;
+   word-wrap: normal;
+   max-width: 70%;
+   font-weight: 300;
+}
+
+.left {
+   text-align: left;
+   margin-right: auto;
+   margin-left: 1.8rem; 
+   
+}
+
+.right {
+   text-align: right;
+   margin-left: auto;
+   margin-right: 1.8rem;
+   
+}
+
+
+img {
+   width: 50px;
+   height: 40px;
+   border-radius: 2rem;
+   padding: 0;
+   margin: 2.4rem;
+}
+
+#up,#down {
+   transition: opacity 230ms 0 ease-in;
+   
+}
+
+#down {
+   position: fixed;
+   right: 0;
+   top: 5%;
+   opacity: 0.2;
+   z-index: 2;
+}
+
+#up {
+   position: fixed;
+   right: 0;
+   z-index: 2;
+   bottom: 5%;
+   opacity: 0.2;
+}
+
+#up:hover,#down:hover {
+   opacity: 1;
+}
