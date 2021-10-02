@@ -19,9 +19,9 @@ var start = input1.value;
 var end = input2.value;
 
 //getting the data and storing it in my data
-fetch("https://messages-c3e26-default-rtdb.firebaseio.com/messages.json").then(res => res.json()).then(data => {
-    myData = data;
-})
+// fetch("").then(res => res.json()).then(data => {
+//     myData = data;
+// })
 
 //displaying the results 
 input.addEventListener('change',function(){
